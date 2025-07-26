@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 430" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="430" rx="12" fill="url(#bgGrad)" stroke="#334155" stroke-width="1.5"/>
+  <text x="32" y="42" fill="#f8fafc" font-family="Segoe UI, Inter, sans-serif" font-size="20" font-weight="700">Maritime Survival &amp; Demographic Hazard Model — 5-Fold Stratified CV</text>
+  <text x="32" y="66" fill="#94a3b8" font-family="Segoe UI, Inter, sans-serif" font-size="13">Passenger Manifest Cohort (N = 891, d = 8 Socioeconomic &amp; Demographic Covariates)</text>
+  <rect x="32" y="84" width="12" height="12" rx="3" fill="#38bdf8"/>
+  <text x="50" y="94" fill="#cbd5e1" font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="600">ROC-AUC</text>
+  <rect x="197" y="84" width="12" height="12" rx="3" fill="#34d399"/>
+  <text x="215" y="94" fill="#cbd5e1" font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="600">Accuracy</text>
+  <rect x="362" y="84" width="12" height="12" rx="3" fill="#a78bfa"/>
+  <text x="380" y="94" fill="#cbd5e1" font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="600">F1-Score</text>
+  <rect x="527" y="84" width="12" height="12" rx="3" fill="#fbbf24"/>
+  <text x="545" y="94" fill="#cbd5e1" font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="600">Precision</text>
+  <line x1="240.0" y1="114" x2="240.0" y2="388" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="240.0" y="408" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">0.00</text>
+  <line x1="381.2" y1="114" x2="381.2" y2="388" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="381.2" y="408" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">0.25</text>
+  <line x1="522.5" y1="114" x2="522.5" y2="388" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="522.5" y="408" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">0.50</text>
+  <line x1="663.8" y1="114" x2="663.8" y2="388" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="663.8" y="408" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">0.75</text>
+  <line x1="805.0" y1="114" x2="805.0" y2="388" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="805.0" y="408" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">1.00</text>
+  <text x="226" y="158" fill="#f1f5f9" font-family="Segoe UI, Inter, sans-serif" font-size="13" font-weight="600" text-anchor="end">Logistic Regression (L2)</text>
+  <rect x="240" y="122" width="485.3" height="14" rx="3" fill="#38bdf8" opacity="0.92"/>
+  <text x="733.3" y="133" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8589</text>
+  <rect x="240" y="140" width="468.0" height="14" rx="3" fill="#34d399" opacity="0.92"/>
+  <text x="716.0" y="151" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8283</text>
+  <rect x="240" y="158" width="343.9" height="14" rx="3" fill="#a78bfa" opacity="0.92"/>
+  <text x="591.9" y="169" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.6087</text>
+  <rect x="240" y="176" width="420.2" height="14" rx="3" fill="#fbbf24" opacity="0.92"/>
+  <text x="668.2" y="187" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.7438</text>
+  <text x="226" y="250" fill="#f1f5f9" font-family="Segoe UI, Inter, sans-serif" font-size="13" font-weight="600" text-anchor="end">Random Forest (200 Trees)</text>
+  <rect x="240" y="214" width="483.4" height="14" rx="3" fill="#38bdf8" opacity="0.92"/>
+  <text x="731.4" y="225" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8556</text>
+  <rect x="240" y="232" width="473.1" height="14" rx="3" fill="#34d399" opacity="0.92"/>
+  <text x="721.1" y="243" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8373</text>
+  <rect x="240" y="250" width="347.7" height="14" rx="3" fill="#a78bfa" opacity="0.92"/>
+  <text x="595.7" y="261" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.6154</text>
+  <rect x="240" y="268" width="448.9" height="14" rx="3" fill="#fbbf24" opacity="0.92"/>
+  <text x="696.9" y="279" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.7945</text>
+  <text x="226" y="342" fill="#f1f5f9" font-family="Segoe UI, Inter, sans-serif" font-size="13" font-weight="600" text-anchor="end">HistGradientBoosting</text>
+  <rect x="240" y="306" width="478.8" height="14" rx="3" fill="#38bdf8" opacity="0.92"/>
+  <text x="726.8" y="317" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8474</text>
+  <rect x="240" y="324" width="471.2" height="14" rx="3" fill="#34d399" opacity="0.92"/>
+  <text x="719.2" y="335" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.8339</text>
+  <rect x="240" y="342" width="361.0" height="14" rx="3" fill="#a78bfa" opacity="0.92"/>
+  <text x="609.0" y="353" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.6390</text>
+  <rect x="240" y="360" width="413.5" height="14" rx="3" fill="#fbbf24" opacity="0.92"/>
+  <text x="661.5" y="371" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.7318</text>
+</svg>
